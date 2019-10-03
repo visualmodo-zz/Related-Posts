@@ -1,0 +1,61 @@
+.visualmodo-related-posts {
+  margin: 32px 0;
+}
+
+.visualmodo-related-posts-title {
+  margin-bottom: 16px;
+}
+
+.visualmodo-related-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+  grid-gap: 16px;
+}
+
+.visualmodo-related-post {
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.visualmodo-related-post:hover {
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -moz-transform: none;
+}
+
+.visualmodo-related-post a,
+.visualmodo-related-post a:hover {
+  text-decoration: none;
+}
+
+.visualmodo-related-post-body {
+  padding: 16px;
+}
+
+.visualmodo-related-post-body-title {
+  color: #3379fc;
+  transition: 0.3s;
+}
+
+.visualmodo-related-post:hover .visualmodo-related-post-body-title {
+  color: #3365c3;
+}
+
+.visualmodo-related-post-body-content {
+  color: #555;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visualmodo-related-post:hover .visualmodo-related-post-body-content {
+  color: #000;
+}

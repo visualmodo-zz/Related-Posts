@@ -1,0 +1,20 @@
+/*-----------------------------------------------------------------------------------*/
+/*  *.  Related Posts Page Menu
+/*-----------------------------------------------------------------------------------*/
+
+.visualmodo-related-posts-page-welcome .wp-badge.visualmodo-related-posts-page-logo {
+    background-color: #4c3cff;
+    background-image: url(../img/related-posts.svg);
+}
+
+.visualmodo-related-posts-page-welcome .visualmodo-related-posts-page-actions .visualmodo-related-posts-button-settings {
+    vertical-align: top;
+}
+
+.toplevel_page_related-posts .dashicons-before img {
+    width: 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  *.  ---
+/*-----------------------------------------------------------------------------------*/
